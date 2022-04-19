@@ -16,13 +16,13 @@
 
 ## **REST의 개념**
 
-`REST`는 HTTP URI(Uniform Resource Identifier)를 통해 **자원(Resource)을** 명시합니다. **HTTP Method**(GET, POST, PUT, PATCH, DELETE)를 통해 해당 자원에 대한 CRUD 요청을 수행하고, 요청을 위한 자원은 **특정한 형태(Representation of Resource)**로 표현됩니다.
+`REST`는 HTTP URI(Uniform Resource Identifier)를 통해 **자원(Resource)을** 명시합니다. **HTTP Method**(GET, POST, PUT, PATCH, DELETE)를 통해 해당 자원에 대한 CRUD 요청을 수행하고, 요청을 위한 자원은 **특정한 형태(Representation of Resource)** 로 표현됩니다.
 
 → 즉, `REST`는 자원 기반의 구조(ROA, Resource Oriented Architecture) 설계의 중심에 Resource가 있고, HTTP Method를 통해 Resource를 처리하도록 설계된 아키텍처를 의미합니다.
 
 ### **URI(Uniform Resource Identifier)란?**
 
-URI는 특정 리소스를 식별하는 **통합 자원 식별자(Uniform Resource Identifier)**를 의미합니다. 여기서 주목해야 할 부분은 **식별자**라는 부분입니다. 가장 많이 헷갈리는 것이 URL(Uniform Resource Locator)와의 차이인데, 간단하게 설명하면 아래와 같이 설명할 수 있습니다.
+URI는 특정 리소스를 식별하는 **통합 자원 식별자(Uniform Resource Identifier)** 를 의미합니다. 여기서 주목해야 할 부분은 **식별자**라는 부분입니다. 가장 많이 헷갈리는 것이 URL(Uniform Resource Locator)와의 차이인데, 간단하게 설명하면 아래와 같이 설명할 수 있습니다.
 
 - [https://aosjehdgus.tistory.com](https://aosjehdgus.tistory.com/)는 URI 이면서 URL입니다.
 - [https://aosjehdgus.tistory.com/141는](https://aosjehdgus.tistory.com/141) URI이지만 URL은 아닙니다.
@@ -51,11 +51,11 @@ URI는 특정 리소스를 식별하는 **통합 자원 식별자(Uniform Resou
 | PATCH | Update | PUT과 마찬가지로 리소스를 수정할 때 사용하지만, 리소스 일부를 업데이트 합니다. |
 | DELETE | Delete | DELETE 메서드는 특정 리소스를 삭제합니다. |
 - HTTP 응답 상태의 코드는 다음과 같습니다.
-    - **1xx (정보)**: 요청을 받았으며 프로세스를 계속한다
-    - **2xx (성공)**: 요청을 성공적으로 받았으며 인식했고 수용하였다
-    - **3xx (리다이렉션)**: 요청 완료를 위해 추가 작업 조치가 필요하다
-    - **4xx (클라이언트 오류)**: 요청의 문법이 잘못되었거나 요청을 처리할 수 없다
-    - **5xx (서버 오류)**: 서버가 명백히 유효한 요청에 대해 충족을 실패했다
+  - **1xx (정보)**: 요청을 받았으며 프로세스를 계속한다
+  - **2xx (성공)**: 요청을 성공적으로 받았으며 인식했고 수용하였다
+  - **3xx (리다이렉션)**: 요청 완료를 위해 추가 작업 조치가 필요하다
+  - **4xx (클라이언트 오류)**: 요청의 문법이 잘못되었거나 요청을 처리할 수 없다
+  - **5xx (서버 오류)**: 서버가 명백히 유효한 요청에 대해 충족을 실패했다
 
 **3. 표현(Representation of Resource)**
 
